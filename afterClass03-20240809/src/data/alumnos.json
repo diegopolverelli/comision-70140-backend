@@ -1,0 +1,20 @@
+[
+     {
+          "id": 1,
+          "nombre": "Romina",
+          "email": "romina@test.com",
+          "carreraID": 1
+     },
+     {
+          "id": 2,
+          "nombre": "Julian",
+          "email": "julian@test.com",
+          "carreraID": 2
+     },
+     {
+          "id": 3,
+          "nombre": "Mariana",
+          "email": "mariana@test.com",
+          "carreraID": 3
+     }
+]
