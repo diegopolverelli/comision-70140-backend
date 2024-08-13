@@ -37,5 +37,9 @@
                     "inscripciones": 1
                }
           ]
+     },
+     {
+          "id": 4,
+          "cursando": []
      }
 ]

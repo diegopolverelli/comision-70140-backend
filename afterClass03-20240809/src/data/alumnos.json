@@ -16,5 +16,11 @@
           "nombre": "Mariana",
           "email": "mariana@test.com",
           "carreraID": 3
+     },
+     {
+          "id": 4,
+          "nombre": "Matilde",
+          "email": "matilde@test.com",
+          "carreraID": 4
      }
 ]

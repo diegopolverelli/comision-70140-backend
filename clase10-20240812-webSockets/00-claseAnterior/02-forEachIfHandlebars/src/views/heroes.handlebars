@@ -1,0 +1,24 @@
+<h2>Heroes</h2>
+<hr>
+<ul>
+    {{#if detalle}}
+        {{#each heroes}}
+            <li>
+                {{name}} - identidad: <strong>{{alias}}</strong> - team: <strong>{{team}}</strong>
+            </li>
+        {{/each}}
+    {{else}}
+        {{#each heroes}}
+            <li>
+                {{name}}
+            </li>
+        {{/each}}
+    {{/if}}
+
+
+</ul>
+
+<form action="/api/prueba" method="post">
+    <input type="text" name="nombre">
+    <input type="submit" value="Enviar">
+</form>
