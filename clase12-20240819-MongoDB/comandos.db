@@ -1,0 +1,71 @@
+db.usuarios.insertOne({name:"Juan"})
+db.usuarios.insertOne(
+    {
+        id: 20,
+        email:"yushiro@test.com",
+        name: "Yushiro",
+        powers: ["Demon Abilities", "Blood Manipulation"],
+        role: "Demon",
+        team: "None",
+        demonSlayer: false
+    }
+)
+
+db.usuarios2.insertMany(
+    [
+    {
+        id: 9,
+        name: "Muzan Kibutsuji",
+        powers: ["Demon Abilities", "Blood Manipulation"],
+        role: "Main Antagonist",
+        team: "None",
+        demonSlayer: false
+    },
+    {
+        id: 10,
+        name: "Giyu Tomioka",
+        powers: ["Water Breathing", "Water Hashira"],
+        role: "Hashira",
+        team: "Demon Slayer Corps",
+        demonSlayer: true
+    },
+    {
+        id: 11,
+        name: "Muichiro Tokito",
+        powers: ["Mist Breathing", "Mist Hashira"],
+        role: "Hashira",
+        team: "Demon Slayer Corps",
+        demonSlayer: true
+    },
+    {
+        id: 12,
+        name: "Tengen Uzui",
+        powers: ["Sound Breathing", "Sound Hashira"],
+        role: "Hashira",
+        team: "Demon Slayer Corps",
+        demonSlayer: true
+    },
+    {
+        id: 13,
+        name: "Akaza",
+        powers: ["Upper Moon Three", "Demon Abilities"],
+        role: "Twelve Kizuki",
+        team: "None",
+        demonSlayer: false
+    },
+
+    ]
+)
+
+
+
+
+
+    {
+        id: 20,
+        name: "Yushiro",
+        powers: ["Demon Abilities", "Blood Manipulation"],
+        role: "Demon",
+        team: "None",
+        demonSlayer: false
+    }

@@ -6,6 +6,19 @@ https://forms.gle/wsUEk8mnsfhFwAAR6
 https://github.com/diegopolverelli/comision-70140-backend
 
 
+
+// Instructivo instalación MongoDB / MongoSh
+// https://exciting-possum-0cf.notion.site/Shared-Mongo-DB-Windows-y-Mac-Os-1-26ebb07c4ca342feb4cb630be4aa29db
+
+
+
+String de conexión a MongoDB Atlas
+// mongodb://127.0.0.1:27017/pruebas_mongo
+// mongodb+srv://coderhouse:codercoder2023@cluster0.wpxpupc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+
+
 https://help.glitch.com/hc/en-us/articles/16287495688845-What-version-of-Node-can-I-use-and-how-do-I-change-update-upgrade-it
 
 "engines": { "node": "16.x" }
@@ -32,6 +45,8 @@ Swal.fire({
 })
 
 divMensajes.scrollTop=divMensajes.scrollHeight;
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
