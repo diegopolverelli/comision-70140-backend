@@ -1,0 +1,65 @@
+[
+     {
+          "id": 1,
+          "cursando": [
+               {
+                    "cursoID": 4,
+                    "inscripciones": 3
+               },
+               {
+                    "cursoID": 2,
+                    "inscripciones": 1
+               }
+          ]
+     },
+     {
+          "id": 2,
+          "cursando": [
+               {
+                    "cursoID": 2,
+                    "inscripciones": 7
+               },
+               {
+                    "cursoID": 4,
+                    "inscripciones": 2
+               },
+               {
+                    "cursoID": 1,
+                    "inscripciones": 8
+               },
+               {
+                    "cursoID": 6,
+                    "inscripciones": 1
+               },
+               {
+                    "cursoID": 7,
+                    "inscripciones": 6
+               }
+          ]
+     },
+     {
+          "id": 3,
+          "cursando": [
+               {
+                    "cursoID": 3,
+                    "inscripciones": 2
+               },
+               {
+                    "cursoID": 1,
+                    "inscripciones": 15
+               },
+               {
+                    "cursoID": 4,
+                    "inscripciones": 4
+               },
+               {
+                    "cursoID": 2,
+                    "inscripciones": 9
+               },
+               {
+                    "cursoID": 8,
+                    "inscripciones": 8
+               }
+          ]
+     }
+]

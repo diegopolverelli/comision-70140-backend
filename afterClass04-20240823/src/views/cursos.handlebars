@@ -1,0 +1,20 @@
+<h2>Cursos</h2>
+<hr>
+<h2 id="alumno" data-carrera="{{alumno.carreraID}}">Cursos de {{alumno.nombre}} - legajo: {{alumno.id}}</h2>
+<ul>
+    {{#each carrera.cursando}}
+        <li>{{descrip}} - inscripciones: {{inscripciones}}</li>
+    {{/each}}
+</ul>
+<hr>
+<h2>Cursos disponibles</h2>
+<ul id="cursos">
+    {{#each cursos}}
+        <li>{{descrip}} <button onclick="inscribirseCurso({{id}})">Inscribirse</button></li>
+    {{/each}}
+</ul>
+<br>
+<a href="/">volver a Alumnos</a>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/cursos.js"></script>

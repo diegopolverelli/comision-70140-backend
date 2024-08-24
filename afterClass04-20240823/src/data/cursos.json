@@ -1,0 +1,42 @@
+[
+     {
+          "id": 1,
+          "descrip": "Programación Backend I",
+          "horas": 32
+     },
+     {
+          "id": 2,
+          "descrip": "Introducción al Desarrollo Web",
+          "horas": 24
+     },
+     {
+          "id": 3,
+          "descrip": "Programación Backend II",
+          "horas": 40
+     },
+     {
+          "id": 4,
+          "descrip": "Python Avanzado",
+          "horas": 24
+     },
+     {
+          "id": 5,
+          "descrip": "Matematica Discreta II",
+          "horas": 14
+     },
+     {
+          "id": 6,
+          "descrip": "POO - Introduccion",
+          "horas": 8
+     },
+     {
+          "id": 7,
+          "descrip": "Calculo I",
+          "horas": 18
+     },
+     {
+          "id": 8,
+          "descrip": "Programación Backend III",
+          "horas": 26
+     }
+]
