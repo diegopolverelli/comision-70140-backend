@@ -1,0 +1,116 @@
+/* Reseteo básico de estilo para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilos para encabezados */
+h2, h3 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Línea horizontal */
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Lista de usuarios */
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+li strong {
+    color: #007bff;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Mensaje de error o éxito */
+#mensaje {
+    color: #e74c3c; /* Cambiar a verde (#2ecc71) para mensajes de éxito */
+    margin-bottom: 10px;
+}
+
+/* Estilos para elementos comunes adicionales */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+

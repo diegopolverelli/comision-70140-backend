@@ -1,0 +1,11 @@
+<h2>Home Page</h2>
+<hr>
+<h3>Usuarios:</h3>
+<ul>
+    {{#each usuarios}}
+        <li>{{nombre}} - email: <strong>{{email}}</strong></li>
+    {{/each}}
+</ul>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
